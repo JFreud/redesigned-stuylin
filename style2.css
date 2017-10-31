@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+
+p {
+    color: yellow;
+    text-align: center;
+}
+
+a {
+    text-align:center;
+    display: block;
+    margin: 0 auto;
+    color:yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #CCCC00;
+    border-style: outset;
+}
+
+h1, h2, h3 {
+    color: white;
+    text-align: center;
+    font-family: "Arial";
+}
+
+h1:hover {
+    color: silver;
+}
+
+h2:hover {
+    color: silver;
+}
+
+h3:hover {
+    color: silver;
+}
+
+p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+p:hover {
+    border-color: silver;
+    border-style: outset;
+    font-family: "Helvetica";
+}
+

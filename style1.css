@@ -1,0 +1,38 @@
+body{
+    background-color: lightsteelblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    border-style: ridge;
+    margin-right: 575px;
+}
+
+h3 {
+    color: green;
+    border-style: groove;
+    margin-right: 540px;
+}
+
+a {
+    border-style: outset;
+    border-color: orange;
+}
+
+a:hover {
+    border-style: inset;
+    border-color: gray;
+}
+
+p {
+    font-family: "Arial";
+    text-align: center;
+    color: yellow;
+    border-style: outset;
+    border-color: black;
+    background: black;
+}

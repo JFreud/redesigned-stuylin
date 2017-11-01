@@ -2,17 +2,17 @@ body{
     background-color: lightsteelblue;
 }
 
-h1 {
+.extreme {
     text-align: center;
 }
 
 h2 {
     color: white;
     border-style: ridge;
-    margin-right: 575px;
+    margin-right: 500px;
 }
 
-h3 {
+.navzone {
     color: green;
     border-style: groove;
     margin-right: 540px;
@@ -28,7 +28,7 @@ a:hover {
     border-color: gray;
 }
 
-p {
+.prose {
     font-family: "Arial";
     text-align: center;
     color: yellow;

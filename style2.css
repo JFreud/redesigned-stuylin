@@ -2,7 +2,7 @@ body {
     background-color: black;
 }
 
-p {
+.prose {
     color: yellow;
     text-align: center;
 }
@@ -20,13 +20,21 @@ a:hover {
     border-style: outset;
 }
 
-h1, h2, h3 {
+.navzone, .extreme {
     color: white;
     text-align: center;
     font-family: "Arial";
 }
 
-h1:hover {
+.extreme {
+    background-color: goldenrod;
+}
+
+h2 {
+    color:white;
+}
+
+.extreme:hover {
     color: silver;
 }
 
@@ -34,15 +42,17 @@ h2:hover {
     color: silver;
 }
 
-h3:hover {
+.navzone:hover {
     color: silver;
 }
 
-p {
+.prose {
     margin-left: 100px;
     margin-right: 100px;
 }
-p:hover {
+
+
+.prose:hover {
     border-color: silver;
     border-style: outset;
     font-family: "Helvetica";

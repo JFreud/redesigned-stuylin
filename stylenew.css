@@ -1,9 +1,86 @@
+.navbar {
+  postition: fixed;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #C0C0C0;
 }
 
 li {
     display: inline;
+    float: left;
+}
+
+.headerthings a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-family: "Courier new";
+}
+
+.headerthings a:hover {
+  background-color: gray;
+}
+
+body {
+  background: url("trip.gif");
+  background-size: cover;
+}
+
+@keyframes test {
+  from {background: rgba(255, 0, 0, 0.5);}
+  to {background: rgba(255,255,0,0.5);}
+}
+
+.stuff {
+  border-style: outset;
+  animation-name: test;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.main_text {
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.not_main_text{
+  font-family: "Courier new";
+  border-style: inset;
+  background: rgba(192, 192, 192, 0.7);
+}
+
+.left {
+  background: rgba(50, 50, 50, 0.5);
+  display: inline-block;
+  postion: absolute;
+  left: 0;
+  width: 49%;
+  border-style: dashed;
+  border-color: black;
+}
+
+.right {
+  background: rgba(200, 200, 200, 0.5);
+  display: inline-block;
+  postion: absolute;
+  right: 0;
+  width: 49%;
+  border-style: dashed;
+  border-color: white;
+}
+
+.right-text {
+  margin:auto;
+  direction: rtl;
+}
+
+.left-text{
+  margin: auto;
 }
